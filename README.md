@@ -1,33 +1,5 @@
-# BookNest
-
-BookNest is a beginner-friendly Spring Boot MVC personal library management system built with Java 17, Spring Boot 3, Spring MVC, Spring Data JPA, Spring Security, Thymeleaf, Bootstrap 5, and MySQL-ready configuration.
-
-## Features
-
-- Admin login with Spring Security
-- Dashboard statistics
-- Book CRUD
-- Search by title or author
-- Validation and custom exception handling
-- Bootstrap UI with Thymeleaf templates
-
-## Run locally
-
-```bash
-mvn spring-boot:run
-```
-
-## Default admin credentials
-
-- Username: `admin`
-- Password: `admin123`
-
-## Database
-
-The project is configured to use H2 by default so it can run immediately in the workspace. To switch to MySQL, update the datasource values in `src/main/resources/application.properties`.
-
-# Booknest
 BookNest is a Spring Boot MVC web application for managing a personal book library. It demonstrates CRUD operations, Spring Security authentication, Hibernate (JPA), MySQL integration, exception handling, and Thymeleaf-based responsive UI following the MVC architecture.
+
 # 📚 BookNest – Personal Library Management System
 
 BookNest is a beginner-friendly **Java Spring Boot MVC** web application that helps users organize and manage their personal book collections. It provides a secure and intuitive interface for adding, viewing, updating, deleting, and searching books, making it an excellent project for learning modern Java web development.
